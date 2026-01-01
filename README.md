@@ -1,44 +1,50 @@
-# codealpha-tasks
-here is he detail related to my codealpha tasks
-# 🧮 Calculator App
+# 🌐 My Web Development Projects
 
-A simple and responsive **Calculator Application** built using **HTML, CSS, and JavaScript**.  
-This calculator supports both **mouse clicks and keyboard inputs**, making it easy and fast to use.
+Welcome to my **Web Development Projects repository**!  
+This repository contains multiple **HTML, CSS, and JavaScript projects** that showcase my front-end development skills.  
+Currently, it includes a **Calculator App** and an **Image Gallery Web App**, with more projects coming soon.  
+
+
+
+📂 Projects Overview
+
+### 1️⃣ Calculator App
+A simple and responsive calculator that supports **basic arithmetic operations** and **keyboard input** for faster usage.
+
+- **Folder:** `calculator/`  
+- **Technologies:** HTML, CSS, JavaScript  
+- **Features:**
+  - Basic arithmetic: +, -, ×, ÷
+  - Keyboard support for numbers and operations
+  - Clear (AC) and Delete functions
+  - Responsive design for desktop and mobile
+
 
 ---
 
-## 🚀 Features
+### 2️⃣ Image Gallery Web App
+A responsive image gallery that allows users to **view images in a clean grid layout** and explore pictures easily.
 
-- ➕ Basic arithmetic operations (Addition, Subtraction, Multiplication, Division)
-- ⌨️ **Keyboard input support**
-- 🖱️ Button click support
-- 🧼 Clear (AC) and delete functionality
-- 📱 Responsive design for different screen sizes
-- ⚡ Fast and lightweight
+- **Folder:** `image-gallery/`  
+- **Technologies:** HTML, CSS, JavaScript  
+- **Features:**
+  - Grid-based image layout
+  - Hover effects and styling
+  - Responsive design for all devices
+
+
+---
+
+
 
 ---
 
 ## 🛠️ Technologies Used
-
-- **HTML** – Structure of the calculator  
-- **CSS** – Styling and layout  
-- **JavaScript** – Logic and keyboard event handling  
-
----
-
-## ⌨️ Keyboard Support
-
-The calculator supports the following keyboard inputs:
-
-| Key | Action |
-|----|------|
-| `0 - 9` | Number input |
-| `+ - * /` | Arithmetic operations |
-| `Enter` | Calculate result |
-| `Backspace` | Delete last digit |
-| `Escape` | Clear all input |
+- HTML
+- CSS
+- JavaScript
 
 ---
 
-## 📂 Project Structure
+
 
