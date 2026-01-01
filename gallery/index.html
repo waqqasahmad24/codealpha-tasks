@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery with Lightbox</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-images"></i> Image Gallery</h1>
+            <p class="subtitle">Click on any image to view in lightbox. Use filters to sort by category.</p>
+        </header>
+        
+        <!-- Filter Buttons -->
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All Images</button>
+            <button class="filter-btn" data-filter="nature">Nature</button>
+            <button class="filter-btn" data-filter="city">City</button>
+            <button class="filter-btn" data-filter="animals">Animals</button>
+            <button class="filter-btn" data-filter="food">Food</button>
+        </div>
+        
+        <!-- Gallery Grid -->
+        <div class="gallery">
+            <!-- Images will be inserted by JavaScript -->
+        </div>
+        
+        <!-- Lightbox Modal -->
+        <div class="lightbox" id="lightbox">
+            <div class="lightbox-content">
+                <span class="close-btn">&times;</span>
+                <button class="nav-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <button class="nav-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+                <div class="lightbox-image-container">
+                    <img class="lightbox-image" src="" alt="Lightbox Image">
+                    <div class="image-info">
+                        <h3 class="image-title">Image Title</h3>
+                        <p class="image-category">Category: Nature</p>
+                        <p class="image-description">Description of the image goes here.</p>
+                    </div>
+                </div>
+                <div class="lightbox-thumbnails">
+                    <!-- Thumbnails will be inserted by JavaScript -->
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Image Gallery with Lightbox & Filters | Created with HTML, CSS & JavaScript</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
